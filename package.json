@@ -1,0 +1,16 @@
+{
+  "name": "beepbeep",
+  "description": "Make beep noises.",
+  "version": "1.0.0",
+  "author": "Feross Aboukhadijeh <feross@feross.org>",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "beep",
+    "console beep"
+  ],
+  "repository": "git://github.com/feross/node-beepbeep",
+  "engines": {
+    "node": "*"
+  }
+}
