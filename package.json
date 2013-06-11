@@ -1,15 +1,19 @@
 {
   "name": "beepbeep",
-  "description": "Make beep noises.",
+  "description": "Make a console beep noise in Node.js",
   "version": "1.0.0",
   "author": "Feross Aboukhadijeh <feross@feross.org>",
   "dependencies": {},
   "devDependencies": {},
   "keywords": [
     "beep",
-    "console beep"
+    "console beep",
+    "beep beep",
+    "ding",
+    "ping",
+    "fun"
   ],
-  "repository": "git://github.com/feross/node-beepbeep",
+  "repository": "git://github.com/feross/beepbeep",
   "engines": {
     "node": "*"
   }
