@@ -6,13 +6,12 @@
  * @param {number} [t=500] - Milliseconds between beeps
  */
 module.exports = function (i, t) {
-  if(i instanceof Array) {
-    delayedBeeps(i);
-    return;
+  if (i instanceof Array) {
+    return delayedBeeps(i)
   }
 
-  i = validate(i, 1);
-  t = validate(t, 500);
+  i = isNaN(i) ? 1 : i
+  t = isNaN(t) ? 500 : t
 
   while (i-- > 0) {
     if (t*i === 0) beepNow()
@@ -20,18 +19,18 @@ module.exports = function (i, t) {
   }
 }
 
-function delayedBeeps(i) {
-  if(i.length === 0) return;
+function delayedBeeps (i) {
+  if (i.length === 0) {
+    return
+  }
 
-  setTimeout(function() {
-    beepNow();
-    i.splice(0, 1);
-    delayedBeeps(i);
-  }, validate(i[0], 1000));
-};
-
-function validate(n, preset) {
-  return isNaN(n) ? preset : n;
+  setTimeout(function () {
+    beepNow()
+    i.splice(0, 1)
+    delayedBeeps(i)
+  }, i[0])
 }
 
-function beepNow() { process.stdout.write('\x07') }
+function beepNow () {
+  process.stdout.write('\x07')
+}
