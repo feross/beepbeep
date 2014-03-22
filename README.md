@@ -15,6 +15,9 @@ beep(2)
 
 beep(3, 1000)
 // Beep! ... Beep! ... Beep!
+
+beep([1000, 500, 2000])
+// 1 second delay...Beep! 0.5 second delay...Beep! 2 second delay...Beep!
 ```
 
 ## Installation
