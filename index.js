@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * Make multiple console beep sounds
@@ -14,8 +14,8 @@ module.exports = function (i, t) {
   t = isNaN(t) ? 500 : t
 
   while (i-- > 0) {
-    if (t*i === 0) beepNow()
-    else setTimeout(beepNow, t*i)
+    if (t * i === 0) beepNow()
+    else setTimeout(beepNow, t * i)
   }
 }
 

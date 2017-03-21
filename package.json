@@ -4,7 +4,9 @@
   "version": "1.2.0",
   "author": "Feross Aboukhadijeh <feross@feross.org>",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
   "keywords": [
     "beep",
     "console beep",
@@ -14,7 +16,7 @@
     "fun"
   ],
   "repository": "git://github.com/feross/beepbeep",
-  "engines": {
-    "node": "*"
+  "scripts": {
+    "test": "standard"
   }
 }
