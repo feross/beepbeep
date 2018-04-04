@@ -5,7 +5,7 @@
   "author": "Feross Aboukhadijeh <feross@feross.org>",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^9.0.2"
+    "standard": "*"
   },
   "keywords": [
     "beep",
