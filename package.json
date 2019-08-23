@@ -3,6 +3,10 @@
   "description": "Make a console beep noise in Node.js",
   "version": "1.2.2",
   "author": "Feross Aboukhadijeh <feross@feross.org>",
+  "main": "index.js",
+  "bin": {
+    "beepbeep": "cli.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "standard": "*"
