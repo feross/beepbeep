@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 
-var beep = require('./index')
+var beep = require('../')
 
 try {
   var args = process.argv.splice(2).map(_ => parseInt(_))
