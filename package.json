@@ -33,6 +33,6 @@
     "url": "git://github.com/feross/beepbeep.git"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard && ./bin/cmd.js"
   }
 }
