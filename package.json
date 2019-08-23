@@ -1,7 +1,7 @@
 {
   "name": "beepbeep",
   "description": "Make a console beep noise in Node.js",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
